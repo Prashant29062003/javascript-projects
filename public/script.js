@@ -18,6 +18,7 @@ customCheckboxes.forEach((checkbox, index) => {
             // Toggle the background color to green if clicked and input is not empty
             this.classList.toggle('bg-red-200');
             this.classList.toggle('bg-orange-500');
+            updateProgress(this);
 
             // Toggle line-through style for the associated input field
             goalInputs[index].classList.toggle('line-through');
