@@ -16,8 +16,8 @@ customCheckboxes.forEach((checkbox, index) => {
         // Check if the associated input field has any text
         if (goalInputs[index].value.trim() !== "") {
             // Toggle the background color to green if clicked and input is not empty
-            this.classList.toggle('bg-red-200');
-            this.classList.toggle('bg-orange-500');
+            this.classList.toggle('bg-green-700');
+            // this.classList.toggle('bg-orange-500');
             updateProgress(this);
 
             // Toggle line-through style for the associated input field
